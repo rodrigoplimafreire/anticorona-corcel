@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('/posts', 'Api\PostController@posts');
+Route::get('/perguntas', 'Api\PostController@perguntas');
+Route::get('/treinamentos', 'Api\PostController@treinamentos');
+Route::get('/artigos', 'Api\PostController@artigos');
+Route::get('/boletins', 'Api\PostController@boletins');
+Route::get('/guias', 'Api\PostController@guias');
