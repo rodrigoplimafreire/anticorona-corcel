@@ -1,5 +1,5 @@
 const mix = require('laravel-mix');
-
+mix.setPublicPath('public'); mix.setResourceRoot('../');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -14,10 +14,12 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 
+mix.styles(['resources/css/animate.css', 'resources/css/custom.css'], 'public/css/custom.css')
 
 const tailwindcss = require('tailwindcss')
-mix.less('resources/less/tailwind.less', 'public/css')
+mix.sass('resources/sass/tailwind.scss', 'public/css')
     .options({
+        processCssUrls: false,
         postCss: [
             tailwindcss('./tailwind.config.js'),
         ]

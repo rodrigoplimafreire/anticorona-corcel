@@ -1,7 +1,7 @@
 @extends('layouts.tailwind.app')
 
 @php
-    $posts = \Corcel\Model\Post::published()->newest()->taxonomy('category', 'perguntas')->get();
+{{--    $posts = \Corcel\Model\Post::published()->newest()->taxonomy('category', 'perguntas')->get();--}}
 @endphp
 
 <div class="flex flex-col w-full items-center">

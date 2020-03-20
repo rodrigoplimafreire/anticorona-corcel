@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+$esp_colors: ('orange': #FF8235, 'green': #00692C);
+
+@each $name, $hex in $esp_colors {
+    .bg-esp-#{$name} {
+        background-color: $hex;
+    }
+    .text-esp-#{$name} {
+        color: $hex;
+    }
+    .border-esp-#{$name} {
+        border-color: $hex;
+    }
+}
+
+.text-7xl {
+    font-size: 5.5rem;
+}
+
+.text-8xl {
+    font-size: 7rem;
+}
+
+.text-9xl {
+    font-size: 8.5rem;
+}
+
+.text-10xl {
+    font-size: 10rem;
+}
+
+.rounded-xl {
+    border-radius: 1.5rem;
+}
+
+.rounded-b-xl {
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.rounded-t-xl {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.rounded-r-xl {
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.rounded-l-xl {
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+.h-72 {
+    height: 18rem;
+}
+
+.h-80 {
+    height: 20rem;
+}
+
+.h-85 {
+    height: 25rem;
+}
+
+.h-90 {
+    height: 30rem;
+}
+
+.h-100 {
+    height: 35rem;
+}
