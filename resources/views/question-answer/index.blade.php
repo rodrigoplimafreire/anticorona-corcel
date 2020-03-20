@@ -8,9 +8,9 @@ $posts = [];
 
 <div class="container px-4">
     <div class="flex flex-col w-full items-center">
-        @include('question-answer.header')
+{{--        @include('question-answer.header')--}}
         @include('question-answer.canihelpyou')
-        <div class="container mt-10">
+        <div class="container mt-5">
             <p class="w-full text-2xl">
                 Dúvidas mais frequentes:
             </p>
