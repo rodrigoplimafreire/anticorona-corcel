@@ -4,18 +4,18 @@
     target="_blank"
     class="hover:border hover:border-orange"
   >
-    <div class="w-full flex md:flex-col">
-      <div class="w-1/3 md:w-full py-2 flex items-center">
+    <div class="w-full flex md:flex-col xl:flex-row">
+      <div class="w-1/3 md:w-full xl:w-1/3 py-2 flex items-center">
         <div
           :data-message="imagemAlt"
           :title="imagemAltResumido"
-          class="w-full h-full md:h-24 bg-cover bg-center shadow rounded-lg shadow-lg"
+          class="w-full h-full md:h-24 xl:h-full bg-cover bg-center shadow rounded-lg shadow-lg"
           :style="`background-image: url(${imagemUrl})`"
         ></div>
       </div>
 
-      <div class="w-2/3 md:w-full p-2 pl-4">
-        <div class="text-esp-orange font-black text-2xl md:text-3xl uppercase">
+      <div class="w-2/3 md:w-full xl:w-2/3 p-2 pl-4">
+        <div class="text-esp-orange font-black text-xl uppercase">
           <h3>{{titulo}}</h3>
         </div>
         <div
