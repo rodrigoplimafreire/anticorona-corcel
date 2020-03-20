@@ -8,7 +8,7 @@
     </div>
 
     <div class="my-5 flex flex-wrap items-center">
-      <div v-for="n in 3" :key="n" class="w-full lg:w-1/2 p-5">
+      <div v-for="n in 3" :key="n" class="w-full md:w-1/2 lg:w-1/3 p-5">
         <box-informacao-oficial
           imagem-url="https://qualidadeparasaude.com.br/app/uploads/2019/06/qualidade-em-saude.png"
           titulo="Informações para Profissionais de Saúde"

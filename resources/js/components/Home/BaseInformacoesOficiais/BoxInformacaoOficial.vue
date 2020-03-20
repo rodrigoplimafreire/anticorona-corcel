@@ -9,6 +9,9 @@
         <div class="text-lg font-bold py-2 px-4">
           {{ titulo }}
         </div>
+        <div class="text-right w-full px-4 py-2">
+          <span class="text-lg font-bold border-b border-black">Saiba mais</span>
+        </div>
       </div>
     </div>
   </a>

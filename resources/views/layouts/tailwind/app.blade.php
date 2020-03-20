@@ -33,6 +33,7 @@
     class="animated fadeIn flex flex-col justify-start align-content-stretch items-center w-full h-full min-h-screen"
 >
 
+{{--    @include('layouts.tailwind.acessibility')--}}
     @include('layouts.tailwind.header')
 
     <div class="w-full h-full flex-1">

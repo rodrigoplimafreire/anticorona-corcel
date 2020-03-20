@@ -19,14 +19,14 @@
 
     <div class="container flex flex-col md:flex-row md:justify-between mt-6">
         @foreach($boards as $board)
-            <div class="bg-white rounded-xl flex flex-col items-center lg:items-start w-full my-5 md:mx-4 px-2 pb-6 pt-8">
+            <div class="bg-white rounded-xl flex flex-col items-center lg:items-start w-full my-5 md:mx-4 px-2 lg:px-5 pb-6 pt-8">
                 <div class="bg-esp-orange text-white rounded-full w-40 h-40 md:w-20 md:h-20 mb-10 md:mb-5 flex justify-center items-center">
                     <span
                         title="Imagem de um {{$board['icon']}}"
                         class="mdi mdi-{{$board['icon']}} text-7xl md:text-3xl"
                     ></span>
                 </div>
-                <div class="text-esp-orange text-2xl sm:text-5xl md:text-xl lg:self-end"><p>{{$board['text']}}</p></div>
+                <div class="text-esp-orange text-2xl sm:text-4xl md:text-lg xl:text-2xl lg:self-end font-black"><p>{{$board['text']}}</p></div>
             </div>
         @endforeach
     </div>

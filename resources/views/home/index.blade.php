@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="w-full flex flex-col items-center">
-        <div class="flex flex-col lg:flex-row items-center lg:items-stretch container">
+        <div class="flex flex-col md:flex-row items-center md:items-stretch container">
             <div class="w-full">
                 @include('home.nome_logo')
                 @include('home.informacoes')
@@ -14,7 +14,7 @@
         <div class="w-full">
             @include('home.duvidas')
         </div>
-        <div class="w-full">
+        <div class="">
             @include('home.base_informacoes_oficiais')
         </div>
     </div>
