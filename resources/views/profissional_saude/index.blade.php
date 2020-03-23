@@ -4,18 +4,18 @@
     <div class="w-full flex flex-col items-center">
         <div class="flex flex-col md:flex-row items-center md:items-stretch container">
             <div class="w-full">
-                @include('home.nome_logo')
-                @include('home.informacoes')
+                @include('profissional_saude.nome_logo')
+                @include('profissional_saude.informacoes')
             </div>
             <div class="w-full">
-                @include('home.destaque_noticias')
+                @include('profissional_saude.destaque_noticias')
             </div>
         </div>
         <div class="w-full">
-            @include('home.duvidas')
+            @include('profissional_saude.duvidas')
         </div>
         <div class="">
-            @include('home.base_informacoes_oficiais')
+            @include('profissional_saude.base_informacoes_oficiais')
         </div>
     </div>
 

@@ -10,22 +10,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1>@lang('home.title')</h1>
-                    <p>@lang('home.subtitle')</p>
+                    <h1>@lang('profissional_saude.title')</h1>
+                    <p>@lang('profissional_saude.subtitle')</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <p>@lang('home.text')</p>
+                    <p>@lang('profissional_saude.text')</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    
+
                 </div>
                 <div class="col-12 col-md-4">
-                    <p>@lang('home.access.title')</p>
-                    <p>@lang('home.access.text')</p>
-                    <Button label="@lang('home.access.citizen')"></Button>
-                    <Button label="@lang('home.access.professional')"
+                    <p>@lang('profissional_saude.access.title')</p>
+                    <p>@lang('profissional_saude.access.text')</p>
+                    <Button label="@lang('profissional_saude.access.citizen')"></Button>
+                    <Button label="@lang('profissional_saude.access.professional')"
                 </div>
             </div>
         </div>

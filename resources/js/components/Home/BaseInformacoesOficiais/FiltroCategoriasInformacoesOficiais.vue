@@ -8,7 +8,7 @@
       <button
         @click="$emit('click', categoria)"
         type="button"
-        class="text-xl sm:text-2xl p-3 w-full h-full border rounded-xl hover:bg-orange hover:text-white"
+        class="text-xl p-2 w-full h-full border rounded-xl hover:bg-orange hover:text-white hover:border-orange hover:shadow"
         :class="{ 'border-b-8 border-orange text-orange': categoria === ativo, 'border-gray-500 text-gray-700' : categoria !== ativo }"
       >
         {{categoria}}

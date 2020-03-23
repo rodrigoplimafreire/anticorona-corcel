@@ -1,4 +1,4 @@
-@extends('layouts.tailwind.app-no-header')
+@extends('layouts.tailwind.app-no-search-header')
 
 @section('content')
     @php

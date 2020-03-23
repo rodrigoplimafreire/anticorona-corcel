@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'ProfissionalSaudeController@index');
 
 
 Route::get('/perguntas-respostas/', function () {
